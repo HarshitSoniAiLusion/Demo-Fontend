@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
       proxy:{
         '/api':{
-          target:'http://localhost:8080',
+          target:'http://ailusiondemobackend.centralindia.cloudapp.azure.com:8080',
           secure:false
         },
       },
